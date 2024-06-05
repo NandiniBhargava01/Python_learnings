@@ -14,5 +14,8 @@ city=str(input("Which city do you live in? \n"))
 joy=str(input("What do you like ? \n"))
 #output sentence
 
+#using '+' to concatenate 
+print("User's name is  "+name+", user is "+age+" years old. \n User live in"+city+" ,user likes to "+joy+".")
 
-print("User's name is  "+name+", user's is "+age+" years old. \n User live in"+city+" ,user likes to "+joy+".")
+#using format to concatenate
+print("User's name is {0}, user is {1} years old.\n User lives in {2}, user like to {3}.".format(name,age,city,joy))
